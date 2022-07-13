@@ -75,7 +75,7 @@ export default function Home() {
 		<div className={styles.container}>
 			<Form
 				onSubmit={approveAndList}
-				// this data will be automatically passed to onSubmit, which will pass it to the function pinned to the onSubmit event
+				// this data will be automatically passed to onSubmit, which will pass it to the function pinned to the onSubmit event.
 				data={[
 					{
 						name: "NFT Address",
